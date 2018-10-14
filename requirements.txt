@@ -1,0 +1,4 @@
+beautifulsoup4==4.5.3
+textract==1.6.1
+chardet==2.3.0
+requests

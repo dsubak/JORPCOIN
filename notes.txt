@@ -1,0 +1,4 @@
+- TODO: per advice at https://github.com/jsvine/markovify get texts cleaned up such that they are either newline or period seperated
+  - Probably the latter; possible to just remove all newline characters?
+  - Nix control characters as well - there are a lot in the Buterin paper
+- TODO: Need to rule out Table of Contents, References, Images/diagrams (if possible), page numbers
