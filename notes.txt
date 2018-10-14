@@ -22,3 +22,4 @@ LOW PRIORITY:
 
 COLLATERAL:
 Replace some annoying emdashes and other less than legit characters - https://gist.github.com/tushortz/9fbde5d023c0a0204333267840b592f9
+https://coinlauncher.io/ico-white-papers - Another cool spot with a lot of whitepapers
