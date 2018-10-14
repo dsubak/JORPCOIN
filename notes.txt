@@ -1,13 +1,24 @@
 
+GENERAL TODOs:
+- TODO: Readme, once this whole thing is a little more concrete
+- TODO: Don't download multiple files if they have the similar names?
+- TODO: Restructure into an object so we're not constantly recalculating the same damn directories
+
 PROCESS FUNCTION TODOS:
 - TODO: per advice at https://github.com/jsvine/markovify get texts cleaned up such that they are either newline or period seperated
   - Probably the latter; possible to just remove all newline characters?
   - Nix control characters as well - there are a lot in the Buterin paper
 - TODO: Need to rule out Table of Contents, References, Images/diagrams (if possible), page numbers
 - TODO: Any sane ideas for how to address footnote/endnote references? Suspect they'll pollute the corpus.
+  - References are denoted as a bracketed number ("[1]") pretty reliably - maybe we can try that?
+    - This is a good indicator, but not enough; sometimes it seems that they might be split across lines
 - TODO: Two column PDFs might be a special case
   - TODO: How can I detect this programmatically?
 
 
 LOW PRIORITY:
 - TODO: Replace urlretrieve usage w/ requests so we can add a sane timeout
+
+
+COLLATERAL:
+Replace some annoying emdashes and other less than legit characters - https://gist.github.com/tushortz/9fbde5d023c0a0204333267840b592f9
